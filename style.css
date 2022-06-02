@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 navbar{
     background-color: white;
 }
@@ -18,4 +20,79 @@ navbar{
 .nav-link:hover{
     color: white;
     background-color: black;
+}
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    text-decoration: no;
+}
+
+/* main section */
+
+.main {
+    background-image: url(https://images.unsplash.com/photo-1504253163759-c23fccaebb55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+}
+
+.main h3 small{
+    font-weight: 300;
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid #4663ac;
+    width: 86%;
+}
+
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color:#4663ac ;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover{
+    background-color: #254187;
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color:transparent ;
+    color: #4663ac;
+    outline: none;
+    border: 3px solid #4663ac;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover{
+    background-color: #4663ac;
+    color: white;
+    transition: 0.5s;
+}
+
+.about img{
+    -webkit-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-size: 10rem;
+    font-weight: 700;
 }
