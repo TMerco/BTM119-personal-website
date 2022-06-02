@@ -5,11 +5,6 @@
 }
 
 
-
-navbar{
-    background-color: white;
-}
-
 .nav-link{
     color: black;
     font-size: 1rem;
@@ -92,7 +87,92 @@ navbar{
     box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
 }
 
-h1{
-    font-size: 10rem;
+.about h1{
+    font-size: 3rem;
     font-weight: 700;
+}
+
+.progress{
+    background-color: rgb(215, 215, 215);
+    justify-content: flex-start;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progress p{
+    color: white;
+    padding: 4px;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load4 3s normal forwards;;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 15%;
+    }
 }
