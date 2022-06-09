@@ -88,8 +88,6 @@ html{
 
 .about img{
 
-    height: 34em;
-    width: 34em;
     -webkit-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
     box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
