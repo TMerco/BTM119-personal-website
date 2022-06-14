@@ -232,3 +232,7 @@ html{
 .another {
     height: 100vh;
 }
+
+.resume h1{
+    font-size: 3rem;
+}
