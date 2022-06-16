@@ -236,3 +236,9 @@ html{
 .resume h1{
     font-size: 3rem;
 }
+
+
+.title h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
